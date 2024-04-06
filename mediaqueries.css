@@ -1,0 +1,213 @@
+@media only screen and (min-width: 1200px) {
+    .hamburger-menu {
+        display: none;
+        padding-right: 75px;
+        text-align: right;
+    }    
+}
+
+
+@media only screen and (max-width: 1200px) {
+    .hamburger-menu {
+        display: none;
+        padding-right: 75px;
+        text-align: right;
+    }
+    #main-container {
+        flex-direction: column;
+        align-items: center;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    #chapter-photo {
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    #info-container {
+        padding-top: 15px;
+        padding-left: 0;
+        width: 80%;
+    }
+    .title {
+        font-size: 20px;
+    }
+    #letters {
+        padding-left: 50px;
+        height: 20px;
+        width: auto;
+    }
+    nav {
+        padding-right: 50px;
+        text-align: right;
+        width: 100%;
+    }
+    #home-image, #about-image, #history-image {
+        width: calc(100% - 40px);
+        height: auto;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding-left: 20px;
+        padding-right: 20px;
+    
+    }
+    #crest {
+        padding-right: 100px;
+        padding-bottom: 20px;
+        height: 275px;
+    }
+    #layered-text {
+        flex-direction: column;
+        text-align: center;
+        gap: 50px;
+    }
+    .description-paragraph {
+        font-size: 20px;
+        text-align: center;
+    }
+    .paragraph {
+        text-align: center;
+    }
+    .title {
+        text-align: center;
+    }
+  }
+
+  @media only screen and (max-width: 1000px) {
+    nav {
+        display: none;
+    }
+    .hamburger-menu {
+        display: block;
+        padding-right: 50px;
+        text-align: right;
+    }
+    #letters {
+        text-align: left;
+        padding-left: 50px;
+        height: 18px;
+        width: auto;
+    }
+    #crest {
+        height: 200px;
+        padding-right: 0;
+    }
+    .description-paragraph {
+        font-size: 18px;
+        text-align: center;
+    }
+    #sub-description-div {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-left: 100px;
+        padding-right: 100px;
+        padding-top: 75px;
+        padding-bottom: 75px;
+    }
+    .member-container {
+        width: 85%;
+        height: 500px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .member-photo {
+        width: 100%;
+        height: 55%;
+        object-fit: cover;
+    }
+
+    .member-text {
+        width: 100%;
+        height: 45%;
+        padding-top: 25px;
+        padding-left: 25px;
+    }
+
+    .name-title, .member-description {
+        text-align: left;
+        padding-left: 20px;
+    }
+
+  }
+
+  @media only screen and (max-width: 800px) {
+    #sub-description-div {
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 50px;
+        padding-bottom: 15px;
+    }
+    #crest {
+        padding-bottom: 15px;
+        height: 150px;
+    }
+    #members-title, #gallery-title, #history-title {
+        font-size: 25px;
+    }
+  }
+
+
+  @media only screen and (max-width: 600px) {
+    #letters {
+        text-align: left;
+        padding-left: 30px;
+        height: 18px;
+        width: auto;
+    }
+    .paragraph {
+        font-size: 16px;
+        text-align: center;
+    }
+    #sub-description-div {
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 40px;
+        padding-bottom: 15px;
+    }
+    .description-paragraph {
+        font-size: 14px;
+    }
+    #crest {
+        height: 100px;
+    }
+    .member-container {
+        height: 400px;
+    }
+  }
+
+  @media(max-width: 768px) {
+    .photo-gallery {
+        flex-direction: column;
+    }
+  }
+
+
+  /* HISTORY  */
+
+  @media screen and (max-width: 1150px) {
+    .timeline {
+        width: 80vw;
+    }
+    .timeline .checkpoint {
+        width: 100%;
+        transform: none;
+        padding-left: 0;
+        padding-right: 0;
+        border: none;
+    }
+    .timeline .checkpoint::before {
+        width: 3px;
+        height: 4em;
+        top: -2em;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .timeline .checkpoint div::before {
+        top: -0.5em;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+  }

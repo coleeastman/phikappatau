@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <title>Phi Kappa Tau</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+    <link rel="icon" href="photos/logo.png" type="stamp/png">
+</head>
+<body>
+    <header>
+
+        <!-- LETTERS LOGO -->
+
+        <img src="./photos/letters.png" id="letters" alt="Phi Kappa Tau Letters">
+
+        <!-- NAV BAR -->
+
+        <nav id="bar-nav">
+            <a href="index.html">HOME</a>
+            <a href="members.html">MEMBERS</a>
+            <a href="history.html">HISTORY</a>
+            <a href="gallery.html">GALLERY</a>
+        </nav>
+
+        <!-- HAMBURGER NAV  -->
+
+        <div class="hamburger-menu" role="button" tabindex="0" onclick="toggleMenu()" onkeypress="handleKeyPress(event)">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>        
+
+    </header>    
+
+    <main>
+        
+        <!-- SIDE NAV -->
+
+        <div id="overlay-container">
+            <a href="index.html">HOME</a>
+            <a href="members.html">MEMBERS</a>
+            <a href="history.html">HISTORY</a>
+            <a href="gallery.html">GALLERY</a>
+        </div>
+
+        <!-- HOME IMAGE -->
+
+        <div id="home-div">
+            <img src="./photos/home-image.png" id="home-image">
+        </div>
+
+        <!-- DESCRIPTION -->
+
+        <div id="description-div">
+            <div id="sub-description-div">
+                <img src="./photos/crest.png" id="crest">
+                <p class="description-paragraph">
+                    Welcome to Phi Kappa Tau at Arizona State University, where integrity, leadership, and brotherhood shape the core of our fraternity experience. Our members are committed to academic excellence, community service, and personal growth, united by a bond of friendship and shared values. Through leadership opportunities, philanthropic efforts, and a supportive community, we strive to make a meaningful impact both on campus and beyond. Join us in our mission to develop leaders of character and make a lasting difference in the world.
+                </p>
+            </div>
+        </div>
+
+    </main>
+
+     <!-- FOOTER -->
+
+     <footer id="footer">
+        <div id="footer-icons">
+            <a href="https://www.instagram.com/asuphitau/" target="_blank">
+                <img src="./photos/instagram-icon.png" class="social-icons" alt="Instagram">
+            </a>
+            <a href="https://www.tiktok.com/@asuphitau" target="_blank">
+                <img src="./photos/tiktok-icon.png" class="social-icons" alt="TikTok">
+            </a>
+            <a href="https://www.linkedin.com/company/phi-kappa-tau-fraternity/" target="_blank">
+                <img src="./photos/linkedin-icon.png" class="social-icons" alt="LinkedIn">
+            </a>            
+            <!-- <a href="mailto:phikappatauasu@gmail.com">
+                <img src="./photos/email-icon.png" class="social-icons" alt="Email Phi Kappa Tau ASU">
+            </a> -->
+        </div>
+    </footer>
+    
+    <script src="script.js"></script> 
+
+</body>
+</html>

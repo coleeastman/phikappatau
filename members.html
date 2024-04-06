@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <title>Phi Kappa Tau</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+    <link rel="icon" href="photos/logo.png" type="stamp/png">
+</head>
+<body>
+
+    <header>
+
+        <!-- LETTERS LOGO -->
+
+        <img src="./photos/letters.png" id="letters" alt="Phi Kappa Tau Letters">
+
+        <!-- NAV BAR -->
+
+        <nav id="bar-nav">
+            <a href="index.html">HOME</a>
+            <a href="members.html">MEMBERS</a>
+            <a href="history.html">HISTORY</a>
+            <a href="gallery.html">GALLERY</a>
+        </nav>
+
+        <!-- HAMBURGER NAV  -->
+
+        <div class="hamburger-menu" role="button" tabindex="0" onclick="toggleMenu()" onkeypress="handleKeyPress(event)">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>        
+
+    </header>
+    
+    <main>
+
+        <!-- SIDE NAV -->
+
+        <div id="overlay-container">
+            <a href="index.html">HOME</a>
+            <a href="members.html">MEMBERS</a>
+            <a href="history.html">HISTORY</a>
+            <a href="gallery.html">GALLERY</a>
+        </div>
+
+        <!-- MEMBERS IMAGE -->
+
+        <div id="about-div">
+            <img src="./photos/members.jpg" id="about-image">
+            <div id="overlay">
+                <span class="image-title">MEMBERS</span>
+            </div>
+        </div>
+        
+        <div id="members-body">
+
+            <div id="main-members">
+
+                <div id="members-title">Meet The Brothers</div>
+
+                <div class="member-container">
+                    <img src="./photos/exec-photos/cam.jpg" class="member-photo">
+                    <div class="member-text">
+                        <h2 class="name-title">Cameron Knight</h2>
+                        <p class="member-description">
+                            President
+                        </p>
+                    </div>
+                </div>
+                <div class="member-container">
+                    <img src="./photos/exec-photos/member.png" class="member-photo">
+                    <div class="member-text">
+                        <h2 class="name-title">Adam Levy</h2>
+                        <p class="member-description">
+                            Vice President
+                        </p>
+                    </div>
+                </div>
+                <div class="member-container">
+                    <img src="./photos/exec-photos/member.png" class="member-photo">
+                    <div class="member-text">
+                        <h2 class="name-title">Jackson Wichern</h2>
+                        <p class="member-description">
+                            Treasurer
+                        </p>
+                    </div>
+                </div>
+                <div class="member-container">
+                    <img src="./photos/exec-photos/austin.png" class="member-photo">
+                    <div class="member-text">
+                        <h2 class="name-title">Austin Amelse</h2>
+                        <p class="member-description">
+                            Secretary
+                        </p>
+                    </div>
+                </div>
+                <div class="member-container">
+                    <img src="./photos/exec-photos/cian.jpg" class="member-photo">
+                    <div class="member-text">
+                        <h2 class="name-title">Cian Rose</h2>
+                        <p class="member-description">
+                            Membership Orientation Officer
+                        </p>
+                    </div>
+                </div>
+                <div class="member-container">
+                    <img src="./photos/exec-photos/justin.jpg" class="member-photo">
+                    <div class="member-text">
+                        <h2 class="name-title">Justin Chin</h2>
+                        <p class="member-description">
+                            Scholarship
+                        </p>
+                    </div>
+                </div>
+                <div class="member-container">
+                    <img src="./photos/exec-photos/mike.png" class="member-photo">
+                    <div class="member-text">
+                        <h2 class="name-title">Mike Andrews</h2>
+                        <p class="member-description">
+                            Rush Chair
+                        </p>
+                    </div>
+                </div>
+                <div class="member-container">
+                    <img src="./photos/exec-photos/member.png" class="member-photo">
+                    <div class="member-text">
+                        <h2 class="name-title">Ryan Synder</h2>
+                        <p class="member-description">
+                            Philanthropy
+                        </p>
+                    </div>
+                </div>
+                <div class="member-container">
+                    <img src="./photos/exec-photos/member.png" class="member-photo">
+                    <div class="member-text">
+                        <h2 class="name-title">Nicolas Zarich</h2>
+                        <p class="member-description">
+                            Social Chair
+                        </p>
+                    </div>
+                </div>
+                <div class="member-container">
+                    <img src="./photos/exec-photos/noah.png" class="member-photo">
+                    <div class="member-text">
+                        <h2 class="name-title">Noah Greene</h2>
+                        <p class="member-description">
+                            Prevention & Wellness
+                        </p>
+                    </div>
+                </div>
+                <div class="member-container">
+                    <img src="./photos/exec-photos/member.png" class="member-photo">
+                    <div class="member-text">
+                        <h2 class="name-title">Jon Fitzpatrick</h2>
+                        <p class="member-description">
+                            Chaplain
+                        </p>
+                    </div>
+                </div>
+                <div class="member-container">
+                    <img src="./photos/exec-photos/member.png" class="member-photo">
+                    <div class="member-text">
+                        <h2 class="name-title">Jack Hanley</h2>
+                        <p class="member-description">
+                            Vice President of Alumni Relations
+                        </p>
+                    </div>
+                </div>
+                <div class="member-container">
+                    <img src="./photos/exec-photos/jason.jpg" class="member-photo">
+                    <div class="member-text">
+                        <h2 class="name-title">Jason Johnson</h2>
+                        <p class="member-description">
+                            Warden
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </main>
+
+
+    <!-- FOOTER -->
+
+    <footer id="footer">
+        <div id="footer-icons">
+            <a href="https://www.instagram.com/asuphitau/" target="_blank">
+                <img src="./photos/instagram-icon.png" class="social-icons" alt="Instagram">
+            </a>
+            <a href="https://www.tiktok.com/@asuphitau" target="_blank">
+                <img src="./photos/tiktok-icon.png" class="social-icons" alt="TikTok">
+            </a>
+            <a href="https://www.linkedin.com/company/phi-kappa-tau-fraternity/" target="_blank">
+                <img src="./photos/linkedin-icon.png" class="social-icons" alt="LinkedIn">
+            </a>            
+            <!-- <a href="mailto:phikappatauasu@gmail.com">
+                <img src="./photos/email-icon.png" class="social-icons" alt="Email Phi Kappa Tau ASU">
+            </a> -->
+        </div>
+    </footer>
+
+    <script src="script.js"></script> 
+
+</body>
+</html>
