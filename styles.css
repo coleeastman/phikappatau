@@ -70,7 +70,7 @@ main {
 }
 
 #history-image {
-    opacity: 0.6;
+    opacity: 0.8;
 }
 
 #home-div, #about-div, #history-div {
@@ -234,6 +234,10 @@ footer {
     padding-top: 50px;
     font-size: 35px;
     text-align: center;
+}
+
+.name-title {
+    font-weight: 500;
 }
 
 #overlay {
