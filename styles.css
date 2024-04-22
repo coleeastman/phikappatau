@@ -86,7 +86,6 @@ main {
     padding-left: 200px;
     padding-right: 200px;
     padding-top: 120px;
-    padding-bottom: 75px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -151,7 +150,29 @@ footer {
     text-decoration: none;
 }
 
+/* TABLE */
 
+#table-div {
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 120px;
+    padding-bottom: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+table {
+    width: 100%;
+}
+td {
+    padding: 5px;
+    text-align: center;
+    font-size: 20px;
+}
+.nums-title {
+    font-weight: 500;
+}
 
 
 
@@ -377,6 +398,10 @@ h2 {
     top: 50%;
     transform: translateY(-50%);
     border-radius: 50%;
+}
+
+.date-title {
+    font-weight: 500;
 }
 
 .checkpoint:nth-child(even) div::before {
