@@ -1,9 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="description" content="Phi Kappa Tau Contact Page features a contact form">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
@@ -54,15 +53,33 @@
         <!-- GALLERY IMAGE -->
 
         <div id="about-div">
-            <img src="./photos/gallery-photos/6.JPG" id="about-image">
+            <img src="./photos/contact.JPG" id="about-image">
             <div id="overlay">
-                <span class="image-title">GALLERY</span>
+                <span class="image-title">CONTACT</span>
             </div>
         </div>
 
+        <div id="history-title">Get In Touch</div>
+
         <div class="contact-container">
 
-           
+            <form action="https://webdevbasics.net/scripts/demo.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <div id="contact-flex- container">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    
+                    <label for="phone">Subject:</label>
+                    <input type="tel" id="phone" name="phone">
+                </div>
+                
+                <label for="concern">Message:</label>
+                <textarea id="concern" name="concern" required></textarea>
+                
+                <input type="submit" value="Submit">
+            </form>
 
         </div>
 
@@ -81,9 +98,9 @@
             <a href="https://www.linkedin.com/company/phi-kappa-tau-fraternity/" target="_blank">
                 <img src="./photos/linkedin-icon.png" class="social-icons" alt="LinkedIn">
             </a>            
-            <!-- <a href="mailto:phikappatauasu@gmail.com">
+            <a href="mailto:phikappatauasu@gmail.com">
                 <img src="./photos/email-icon.png" class="social-icons" alt="Email Phi Kappa Tau ASU">
-            </a> -->
+            </a>
         </div>
     </footer>
     
