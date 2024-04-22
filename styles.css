@@ -240,12 +240,9 @@ td {
 }
 
 .member-text {
-    padding-top: 40px;
-    padding-left: 40px;
+    padding: 40px;
     width: 60%;
 }
-
-
 
 .title {
     font-size: 25px;
@@ -469,4 +466,60 @@ h2 {
 
 #overlay-container a:hover {
     color: rgb(178,7,56);
+}
+
+/* CONTACT */
+
+#contact-title {
+    padding-top: 50px;
+    font-size: 35px;
+    text-align: center;
+}
+
+.contact-container {
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 50px;
+    padding-bottom: 25px;
+    text-align: left;
+}
+
+.contact-container form label,
+.contact-container form input,
+.contact-container form textarea {
+    display: block; /* Makes each form element appear on a new line */
+    margin-bottom: 15px; /* Adds space between form elements */
+    width: 95%; /* Ensures input fields use the available width */
+}
+
+.contact-container form textarea {
+    resize: vertical; /* Allows only vertical resizing */
+    margin-bottom: 30px; /* Increases space between the textarea and the next element */
+}
+
+.contact-container form input,
+.contact-container form textarea {
+    padding: 8px; /* Adds some padding inside the input fields and textarea */
+    border: 1px solid #ccc; /* Adds a border to the input fields and textarea */
+    border-radius: 4px; /* Optionally rounds the corners of the input fields and textarea */
+}
+
+.contact-container form input[type="submit"] {
+    background-color: rgb(178,7,56); /* Adds a background color to the submit button */
+    color: white; /* Changes the text color of the submit button */
+    padding: 10px 20px; /* Adds more padding to the submit button */
+    width: 50%; /* Set the button width to be a quarter of its container's width */
+    margin-top: 20px; /* Adds margin on the top of the submit button */
+    margin-bottom: 0; /* Ensures there's no extra space below the button */
+    display: block; /* Ensures the button is a block-level element so margin and width are applied correctly */
+    margin-left: auto; /* Centers the button by setting the left and right margin to auto */
+    margin-right: auto;
+}
+
+textarea {
+    resize: vertical; /* This allows only vertical resizing */
+}
+
+input, textarea, button, select, a {
+    font-family: inherit;
 }

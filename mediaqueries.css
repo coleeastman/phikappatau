@@ -127,13 +127,13 @@
     .member-text {
         width: 100%;
         height: 45%;
-        padding-top: 25px;
-        padding-left: 25px;
+        padding: 25px;
     }
 
     .name-title, .member-description {
         text-align: left;
-        padding-left: 20px;
+        padding-left: 25px;
+        padding-right: 25px
     }
     table {
         font-size: 22px;
@@ -196,6 +196,14 @@
     .member-container {
         height: 400px;
     }
+    .member-text {
+        font-size: 9px; /* A more readable font size */
+        padding: 20px;
+    }
+    .name-title, .member-description {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
   }
 
   @media(max-width: 768px) {
@@ -203,6 +211,13 @@
         flex-direction: column;
     }
   }
+
+  @media (max-width: 650px) {
+    .member-text {
+        font-size: 11px; /* A more readable font size */
+    }
+}
+
 
 
   /* HISTORY  */
