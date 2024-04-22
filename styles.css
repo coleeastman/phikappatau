@@ -190,7 +190,7 @@ td {
     }
 }
 
-#description-div, .text-container {
+#description-div, .text-container, table {
     opacity: 0;
     animation-name: dropIn;
     animation-duration: 2s;
