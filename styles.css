@@ -301,12 +301,14 @@ td {
     gap: 20px;
 }
 
-.photo img {
+.photo img,
+.photo video {
     width: 100%;
-    height: 100%;
+    height: auto;
     border-radius: 5px;
     object-fit: cover;
 }
+
 
 
 /* HISTORY */
@@ -482,37 +484,37 @@ h2 {
 .contact-container form label,
 .contact-container form input,
 .contact-container form textarea {
-    display: block; /* Makes each form element appear on a new line */
-    margin-bottom: 15px; /* Adds space between form elements */
-    width: 95%; /* Ensures input fields use the available width */
+    display: block;
+    margin-bottom: 15px;
+    width: 95%;
 }
 
 .contact-container form textarea {
-    resize: vertical; /* Allows only vertical resizing */
-    margin-bottom: 30px; /* Increases space between the textarea and the next element */
+    resize: vertical;
+    margin-bottom: 30px;
 }
 
 .contact-container form input,
 .contact-container form textarea {
-    padding: 8px; /* Adds some padding inside the input fields and textarea */
-    border: 1px solid #ccc; /* Adds a border to the input fields and textarea */
-    border-radius: 4px; /* Optionally rounds the corners of the input fields and textarea */
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
 }
 
 .contact-container form input[type="submit"] {
-    background-color: rgb(178,7,56); /* Adds a background color to the submit button */
-    color: white; /* Changes the text color of the submit button */
-    padding: 10px 20px; /* Adds more padding to the submit button */
-    width: 50%; /* Set the button width to be a quarter of its container's width */
-    margin-top: 20px; /* Adds margin on the top of the submit button */
-    margin-bottom: 0; /* Ensures there's no extra space below the button */
-    display: block; /* Ensures the button is a block-level element so margin and width are applied correctly */
-    margin-left: auto; /* Centers the button by setting the left and right margin to auto */
+    background-color: rgb(178,7,56);
+    color: white;
+    padding: 10px 20px;
+    width: 50%;
+    margin-top: 20px;
+    margin-bottom: 0;
+    display: block;
+    margin-left: auto;
     margin-right: auto;
 }
 
 textarea {
-    resize: vertical; /* This allows only vertical resizing */
+    resize: vertical;
 }
 
 input, textarea, button, select, a {
